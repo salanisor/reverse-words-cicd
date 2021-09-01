@@ -7,7 +7,7 @@ metadata:
     argocd.argoproj.io/compare-options: IgnoreExtraneous
 spec:
   rules:
-  - host: reversewords.apps.ocp4.keights.org
+  - host: reversewords-prod.apps.ocp4.keights.org
     http:
       paths:
       - backend:
