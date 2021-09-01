@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: reverse-words
 spec:
-  host: reversewords.apps.cluster0.ericsson-sno.e2e.bos.redhat.com
+  host: reversewords-stage.apps.ocp4.keights.org
   port:
     targetPort: 8080
   tls:
